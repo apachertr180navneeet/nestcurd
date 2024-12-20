@@ -8,8 +8,4 @@ export class CreateUserDto {
   @IsEmail()
   @IsNotEmpty()
   email: string;
-
-  @IsInt()
-  @IsNotEmpty()
-  age: number;
 }
